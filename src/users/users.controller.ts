@@ -13,6 +13,11 @@ export class UsersController {
         return this.service.getAllUsers();
     }
 
+    @Get(":id")
+    getUser(@Param() params){
+    return this.service.getUser(params.id);
+    }
+
     @Post()
     addUser(@Body() user: UserEntity){
         return this.service.createUser(user);
