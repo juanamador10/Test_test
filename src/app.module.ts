@@ -3,11 +3,11 @@ import { ServeStaticModule } from '@nestjs/serve-static';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { UsersModule } from './users/users.module';
+import { ItemsModule } from './items/items.module';
 
 @Module({
   imports: [
-    UsersModule,
+    ItemsModule,
     TypeOrmModule.forRoot()
   ],
   controllers: [AppController],

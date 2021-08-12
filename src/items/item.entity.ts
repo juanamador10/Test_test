@@ -1,7 +1,7 @@
 import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity('shopping')
-export class UserEntity{
+export class ItemEntity{
 
     @PrimaryGeneratedColumn()
     id:number;
@@ -14,7 +14,5 @@ export class UserEntity{
 
     @Column()
     quantity:number;
-
-    @Column({default: false})
-    completed: boolean;
+    
 }
