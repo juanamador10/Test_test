@@ -2,8 +2,8 @@
     "type": "postgres",
     "host": "ec2-52-72-125-94.compute-1.amazonaws.com",
     "port": "5432",
-    "username": "dirolbfsyjufgc",
-    "password": "e6de5ab2c27789b7d37961f25c86a2537c8348fd3ee04fbbbb2d205b30f3b3a8",
+    "username": "wymzueegpacwri",
+    "password": "8dab1b43b03064522d68544996b2c82f896681fbfd45701c7a4a0e7781995ab9",
     "database": "d42pvcqstmtul3",
     
     "extra":{
